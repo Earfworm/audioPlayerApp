@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+
+
+
+}
+
+body {
+    background-color: rgba(
+        235, 189, 52,08
+        );
+    
+   
+
+}
+
+
+.container {
+    margin-top: 100px;
+
+}
+
+.img-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+
+
+.song-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.current-time {
+margin-right: 0.2em;
+}
+
+.progress-bar {
+
+}
+
+.duration {
+color: rgb(0, 0, 0);
+margin-left: 0.2em;
+}
+
+
+.audio-player {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8px;
+    margin:0 auto;
+    margin-top: 10px;
+
+}
+
+.audio-player-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+
+.volume {
+ 
+
+}
+/* buttons */
+.play-pause {
+ padding: 0.2em 0.2em;   
+ border: none;  
+ outline: none;   
+ color: rgb(255, 255, 255);   
+ background: rgb(194, 102, 10);   
+ cursor: pointer;   
+ position: relative;
+ z-index: ind;
+ margin-right: 0.1em;
+}
+
+.stop {
+    padding: 0.2em 0.2em;   
+    border: none;  
+    outline: none;   
+    color: rgb(255, 255, 255);   
+    background: rgb(194, 102, 10);   
+    cursor: pointer;   
+    position: relative;
+    z-index: ind;
+    margin-right: 0.2em;
+  
+}
+
+.mute {
+   
+    padding: 0.2em 0.2em;   
+    border: none;  
+    outline: none;
+  box-shadow: .3em;  
+    color: rgb(255,255, 255);   
+    background: rgb(194, 102, 10);   
+    cursor: pointer;   
+    position: relative;
+    z-index: ind;
+    margin-left: 0.2em;
+}
+
+
+
+
+
+
+
+
+
+
